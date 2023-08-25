@@ -8,7 +8,6 @@ pytube = "*"
 ttkbootstrap = "*"
 youtube-transcript-api = "*"
 automateyt = "*"
-send-mail = "*"
 
 [dev-packages]
 

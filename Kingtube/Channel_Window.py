@@ -238,7 +238,15 @@ def new_Window():
 
     window = tb.Toplevel()
     window.title("KingTube")
-    window.geometry("1270x700")
+
+    #CENTER WINDOW
+    win_width = 1270
+    win_height = 700
+    screen_width = window.winfo_screenwidth()
+    ycreen_height = window.winfo_screenheight()
+    x = int((screen_width / 2) - (win_width / 2))
+    y = int((ycreen_height / 2) - (win_height / 2))
+    window.geometry("{}x{}+{}+{}".format(win_width, win_height, x, y))
 
     version_number = tb.Label(master=window,
                               text=KingTube_config.version_number,

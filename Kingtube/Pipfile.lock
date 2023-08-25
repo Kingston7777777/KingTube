@@ -206,14 +206,6 @@
             "markers": "python_version >= '3.7'",
             "version": "==2.31.0"
         },
-        "send-mail": {
-            "hashes": [
-                "sha256:342a2eb405554c1b74862941aef6e1d96eab6a47cac0969bf212982a5af64c49",
-                "sha256:d647f33467495d5bcfcb2facbbaec58629207a53b0ca9cdd2b48b54b01a02e93"
-            ],
-            "index": "pypi",
-            "version": "==0.0.2"
-        },
         "ttkbootstrap": {
             "hashes": [
                 "sha256:53925525c4104f9e345627500dced2d0392ad74324b2a81467aaee3ffbe1a474",
