@@ -12,9 +12,6 @@ import Channel_Window
 def open_playlist():
     Playlist_Window.new_Window()
 
-def show_message():
-    messagebox.showinfo(title="KingTube", message="Please read the Readme file on how to use the software")
-
 def open_channel():
     Channel_Window.new_Window()
 def open_audio():
@@ -1479,8 +1476,6 @@ ycreen_height = window.winfo_screenheight()
 x = int((screen_width / 2)-(win_width / 2))
 y = int((ycreen_height / 2)-(win_height / 2))
 window.geometry("{}x{}+{}+{}".format(win_width, win_height, x, y))
-
-show_message()
 
 version_number = tb.Label(master=window, text=KingTube_config.version_number,font=("Impact", 15),
                           bootstyle="success")
